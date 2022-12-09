@@ -1,0 +1,63 @@
+.intro {
+  padding: 2rem 1rem;
+  // background: url(../img/intro_bg.jpg);
+  background-position: center top;
+  /*background-size: cover;*/
+  border-radius: 0.3rem;
+  min-height: 402px;
+  /*display: flex;*/
+  align-items: center;
+  position: relative;
+  border-radius: 0 !important;
+}
+
+.intro_before {
+  box-shadow: inset 0 0 0 9999px rgba(0, 0, 0, 0.7);
+}
+
+/* SEARCH */
+
+.search {
+  max-width: 600px;
+  margin: 5em auto 0;
+}
+
+.form-control {
+  padding: 1em 0.75em 0.75em;
+  border: none;
+  border-bottom: 1px solid #929292;
+  border-radius: 0;
+  background: transparent;
+  color: #929292;
+  font-size: 1.2rem;
+  transition: 1s;
+}
+
+.form-control:focus {
+  color: #929292;
+  background: transparent;
+  border-color: #929292;
+  outline: 0;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #929292;
+  letter-spacing: 0.08rem;
+}
+
+.input-group-addon {
+  padding: 0px;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #929292;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0px;
+  background: transparent;
+  border-bottom: 1px solid #929292;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
