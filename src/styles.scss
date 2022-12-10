@@ -13,6 +13,19 @@ html {
   box-sizing: inherit;
 }
 
+.btn-primary {
+  background-color: #016920;
+  color: #151515;
+  border: #016920;
+}
+
+.btn-primary:hover {
+  background-color: #00ff4c;
+  color: #151515;
+  opacity: 0.5;
+  // opacity: 0.1;
+}
+
 body {
   font-family: 'Cabin', sans-serif;
   font-weight: 400;
@@ -24,13 +37,13 @@ body {
   padding-bottom: 12rem;
 }
 
-// .container {
-//   text-align: center;
-//   max-width: 960px;
-//   z-index: 10000;
-//   position: relative;
-//   padding: 0;
-// }
+.container {
+  text-align: center;
+  max-width: 960px;
+  z-index: 10000;
+  position: relative;
+  padding: 0;
+}
 
 .row {
   width: 100%;
@@ -40,4 +53,20 @@ body {
 p {
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+.sec-title {
+  color: #bbbbbb;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.sec-hr {
+  width: 40px;
+  height: 1px;
+  background: #00ff4c;
+  margin: -0.2em auto 1em;
 }

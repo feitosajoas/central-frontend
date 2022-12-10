@@ -1,8 +1,11 @@
 .intro {
   padding: 2rem 1rem;
-  // background: url(../img/intro_bg.jpg);
-  background-position: center top;
-  /*background-size: cover;*/
+  // background: url(/assets/images/Eox_4bqXEAAhla5.jpg);
+  background-position: center center;
+  opacity: 0.5;
+  max-width: 1920px;
+  background-size: cover;
+  // object-fit: cover;
   border-radius: 0.3rem;
   min-height: 402px;
   /*display: flex;*/
@@ -25,10 +28,10 @@
 .form-control {
   padding: 1em 0.75em 0.75em;
   border: none;
-  border-bottom: 1px solid #929292;
+  border-bottom: 1px solid #ffffff;
   border-radius: 0;
   background: transparent;
-  color: #929292;
+  color: #ffffff;
   font-size: 1.2rem;
   transition: 1s;
 }
@@ -41,7 +44,7 @@
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #929292;
+  color: #fff;
   letter-spacing: 0.08rem;
 }
 
@@ -60,4 +63,34 @@
   border-top: 0;
   border-left: 0;
   border-right: 0;
+}
+
+.categorias {
+  padding: 2em 0;
+}
+
+.categorias {
+  padding: 2em 0;
+}
+
+.card {
+  border: none;
+  background: transparent;
+  margin: 1em 0;
+}
+.card-header {
+  transition: all 0.5s;
+  background: #1c1c1c;
+  text-decoration: none !important;
+  border-radius: 0 !important;
+  padding: 2em;
+  flex-grow: 1;
+  border: 1px solid #212121;
+}
+
+.sec-hr {
+  width: 40px;
+  height: 1px;
+  background: #00ff4c !important;
+  margin: -0.2em auto 1em;
 }
